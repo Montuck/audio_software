@@ -64,9 +64,9 @@ class AudioAnalyzer:
         ax[2].set_xlabel("Time (s)")
         ax[2].set_ylabel("Frequency (Hz)")
 
-        # plt.tight_layout()
-        # plt.savefig('audio_analysis.png')
-        # plt.show()
+        plt.tight_layout()
+        plt.savefig('audio_analysis.png')
+        plt.show()
         print("Plotting finished")
         return fig, ax
 
