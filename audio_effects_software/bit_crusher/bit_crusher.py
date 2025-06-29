@@ -1,6 +1,7 @@
 import numpy as np
 import sounddevice as sd
 import time
+import pyaudio
 
 def generate_tone(frequency, duration, sample_rate=44100):
     t = np.linspace(0, duration, int(sample_rate * duration), endpoint=False)
@@ -57,4 +58,4 @@ def main():
     play_tone(tone_crushed, sample_rate)
     print("Done...\nTerminating...")
 
-main()
+if __name__="__main__"
